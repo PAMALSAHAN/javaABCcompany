@@ -5,6 +5,9 @@
  */
 package abc.university;
 
+import javax.swing.JFrame;
+import javax.swing.WindowConstants;
+
 /**
  *
  * @author Chamath
@@ -181,6 +184,7 @@ public class MainFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         NewStudent nw =new NewStudent();
         nw.setVisible(true);
+        nw.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         
     }//GEN-LAST:event_btnAddStudentActionPerformed
 
